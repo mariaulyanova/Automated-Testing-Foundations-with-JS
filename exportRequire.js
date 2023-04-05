@@ -1,1 +1,3 @@
-export const myVariable = "Hello JS!";
+const sayHi = "Hello Java Script!";
+
+module.exports = sayHi;

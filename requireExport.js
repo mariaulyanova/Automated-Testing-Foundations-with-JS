@@ -1,2 +1,3 @@
-import {myVariable} from "./exportRequire.js";
-console.log(myVariable);
+const Hi = require('./exportRequire.js');
+
+console.log(Hi);
