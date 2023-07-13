@@ -1,0 +1,27 @@
+{
+  "name": "myjasmine-unit-testing",
+  "version": "1.0.0",
+  "description": "a simple unit test using mocha",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine --config=\"./test/config/jasmine.config.json\"",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [
+    "jasmine",
+    "unit",
+    "testing"
+  ],
+  "author": "Maria Ulyanova",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-spies": "^1.0.0",
+    "jasmine": "^5.0.2",
+    "nyc": "^15.1.0"
+  }
+}
